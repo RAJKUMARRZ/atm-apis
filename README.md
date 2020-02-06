@@ -43,6 +43,12 @@ adonis serve --dev
 ### Dependencies
 AdonisJS (A NodeJS framework) powered Backend with MySQL as primary Database
 
+### Authentication
+The Application is using a JWT token based authentication system.
+
+### Test
+All the APIs are well tested using Postman native application.
+
 
 ### Routes
 The app consists of Routes,
