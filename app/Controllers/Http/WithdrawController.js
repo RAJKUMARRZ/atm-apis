@@ -4,7 +4,6 @@ const User = use("App/Models/User")
 
 class WithdrawController {
 	async withdraw({request, response, auth}) {
-		var atm = await ATM.find(1)
 
 		let id = auth.user.id
 		let amount = request.input('amount')
