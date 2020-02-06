@@ -28,7 +28,7 @@ adonis migration:run
 ```
 
 
-#### To Run the Project
+### To Run the Project
 To run this project, copy repository and run command
 
 ```js
@@ -39,3 +39,14 @@ then,
 ```js
 adonis serve --dev
 ```
+
+### Dependencies
+AdonisJS (A NodeJS framework) powered Backend with MySQL as primary Database
+
+
+### Routes
+The app consists of Routes,
+1. localhost:3333/register
+2. localhost:3333/login
+3. localhost:3333/deposit
+4. localhost:3333/withdraw
