@@ -1,18 +1,15 @@
 'use strict'
 
 const User = use("App/Models/User")
-const ATM = use("App/Models/AtmCashes")
 
 class DepositController {
 	async deposit({request, response, auth}) {
 		let id = auth.user.id//.toJSON
 		//user.balance = auth.balance
 		//console.log(auth)
-		var atm = await ATM.find(1)
 		let am = {}
 		if(request.input('a2000')) {
 			am.a2000 = request.input('a2000')
-			atm.a2000 = parseInt(atm.a2000) + parseInt(am.a2000)
 		}
 		else
 			am.a2000 = 0
