@@ -1,7 +1,6 @@
 'use strict'
 
 const User = use("App/Models/User")
-const ATM = use("App/Models/AtmCashes")
 
 class WithdrawController {
 	async withdraw({request, response, auth}) {
