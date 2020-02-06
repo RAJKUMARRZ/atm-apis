@@ -43,7 +43,7 @@ class RegisterController {
             } 
             else 
             	return response.badRequest({ errorMsg: 'Some Error Occurred' })
-
+            
             return response.ok({ "user": user, "access_token": accessToken })
         } catch (error) {
            return response.internalServerError({ errorMsg: error.message, message: 'This is Catch' }) 

@@ -24,6 +24,8 @@ Route.group(()=> {
 
 	Route.post('register', 'RegisterController.register')
 
+	Route.post('login', 'LoginController.login')
+
 })//.middleware('auth')
 
 Route.group(()=> {	
